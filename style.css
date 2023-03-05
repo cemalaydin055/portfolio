@@ -16,10 +16,21 @@ body{
     background-color: #fff;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
 a{text-decoration: none;}
 
 ul{
     list-style-type: none;
+}
+
+.img-fluid{
+    max-width: 20%;
+    height: auto;
+    border-radius: 45%;
 }
 .clearfix::after{
     content: "";
@@ -42,11 +53,15 @@ ul{
 /*navbar **/
 
 nav{
+    width: 100%;
     font-family: Montserrat;
     background-color: #2c3e50;
     color: #fff;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
+    position: fixed;
+    
+  
 
 }
 
@@ -89,4 +104,16 @@ nav{
 
    }
  
+   /*header*/
+
+header{
+    background-color: #18bc9c;
+    padding-top: calc(112px + 10rem);padding-bottom: 112px;
+    text-align: center;
+
+   }
  
+   header h1{
+    color: #fff;
+    font-size: 7.6rem;
+   }
