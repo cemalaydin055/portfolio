@@ -126,9 +126,19 @@ header{
     font-weight: 300;
    }
 
-   .star-light {
+   hr.star-light{
+    border-color: #fff;
+   }
+
+   hr.star-dark{
+    border-color: #2c3e50;
+    
+   }
+
+
+   .star-light, .star-dark {
     border: none;
-    border-top: .4rem solid #fff;
+    border-top: .4rem solid;
     max-width: 25rem;
     margin: 2.5rem auto;
     overflow: visible;
@@ -136,13 +146,37 @@ header{
    }
 
    .star-light::after{
+    color: #fff;
+    background-color: #18bc9c;
+   }
+   .star-dark::after{
+    color: #2c3e50;
+    background-color: #fff;
+   }
+
+
+
+   .star-light::after, .star-dark::after{
     content: "\f005";
     font-family: "Font Awesome 5 Free";
-    color: #fff;
     font-weight: 900;
     font-size: 3.2rem;
     position: relative;
     top: -26px;
-    background-color: #18bc9c;
-    padding: 0 10px;
+    padding: 0 8px;
+   }
+
+
+#portfolio{
+    height: 600px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align:center;
+
+   }
+
+   
+#portfolio h2{
+    font-size:4.8rem;
+   
    }
