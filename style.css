@@ -34,25 +34,46 @@ ul{
     }
 
     .btn{
-        font-size: 2rem;
-        margin-top:2rem;
-        padding: 2.4rem 1.6rem;
+       
+        margin-top:4rem;
         font-weight: 400;
         display:inline-block;
-        background-color: transparent;
-        border: 2px solid #fff;
+        border: 2px solid transparent;
         color:#fff;
         border-radius: .4rem;
         cursor: pointer;
-        transition: .5s;
+        transition: all .5s;
 
     }
+
+
 
     .btn:hover{
         color: #212529;
         background-color: #fff;
     }
 
+
+    .btn-outline{
+        color:#fff;
+        border-color: #fff;
+        background-color: transparent;
+    }
+
+    .btn-social{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        line-height: 2rem;
+
+    }
+
+    .btn-large{
+        font-size: 2rem;
+        padding: 2.2rem 1.6rem;
+    }
+    
 
 .img-fluid{
     max-width: 20%;
@@ -331,4 +352,33 @@ header{
         background-color: #128f76;
         border-color: #128f76;
         
+    }
+
+    footer{
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        background-color: #2c3e50;
+        color: #fff;
+    }
+
+    footer h4{
+        font-size: 2.4rem;
+
+    }
+
+    footer p{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    footer li{
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    .copyright{
+        background-color: #1a252f;
+        padding-top: 2.4rem;
+        padding-bottom: 2.rem;
+        text-align: center;
+        color: #fff;
     }
