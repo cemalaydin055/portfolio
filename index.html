@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="">
-   <meta name="author" content="">
+   <meta name="description" content="Cemal Aydın Portfolio Sitesi">
+   <meta name="keywords" content="Portfolio, Web Developer, Geliştirici">
+   <meta name="author" content="cemalaydin.com">
    <link rel="stylesheet" href="style.css">
   
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
 
    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
    <link rel="shortcut icon" href="img/icon/pc.png" type="image/x-icon">
-    <title>Portfolio</title>
+    <title>CemalAydin-Portfolyo</title>
 </head>
 <body>
 
    <nav>
     <div class="container clearfix">
         <div id="logo-box">
-            <a href="/" class="logo text-uppercase" >
-                Cemal Aydın
+            <a href="#portfolio1" class="logo text-uppercase" >
+                Cemal Aydin
             </a>
         </div>
         <div id="nav-links" class="responsive">
@@ -29,13 +30,13 @@
                     <a href="#" class="nav-link text-uppercase nav-icon"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-uppercase">Portföy</a>
+                    <a href="#portfolio1" class="nav-link text-uppercase active">Portföy</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-uppercase">Hakkımda</a>
+                    <a href="#about" class="nav-link text-uppercase">Hakkımda</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-uppercase">İletişim</a>
+                    <a href="#contact" class="nav-link text-uppercase">İletişim</a>
                 </li>
                 
                 
@@ -44,18 +45,18 @@
     </div>
    </nav>
    <header>
-    <div class="container">
+    <div class="container" id="portfolio1">
        
         <img id="profile-image" class="img-fluid" src="img/profile.jpg" alt="">
-        <h1 class="text-uppercase">Start Boostrap</h1>
+        <h1 class="text-uppercase">Junior Developer</h1>
         <hr class="star-light">
-      <h2>Web-Developer -  Graphics - Artist - User Experience Designer</h2>
+      <h2>Web-Geliştirici - Grafik - Sanatçı - Kullanıcı Deneyimi Tasarımcısı</h2>
     </div>
    </header>
-   <section id="portfolio clearfix">
+   <section id="portfolio  clearfix">
     <div class="container">
         <h2 class="text-uppercase">
-            Porfolio
+            Portfolyo
         </h2>
         <hr class="star-dark">
 
@@ -74,7 +75,7 @@
 
             <div class="col">
                 <div class="portfolio-item">
-                <a href="#"><img class="img-fluid" src="img/icerik-img/971.jpg">
+                <a href="#"><img class="img-fluid" src="img/icerik-img/972.jpg">
                      <div class="img-overlay">
                         <div class="icon">
                             <i class="fa-brands fa-searchengin fa-3x"></i>
@@ -137,20 +138,25 @@
    </section>
 
    <section id="about">
-    <h2 class="text-uppercase"> About</h2>
+    <h2 class="text-uppercase"> Hakkımda</h2>
     <hr class="star-light">
-    <div id="about-text" class="cleatfix">
+    <div id="about-text" class="clearfix">
         <div class="left">
-            <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, excepturi?</p>
+            <p class="text">Lise Yıllarımda  Web Tasarım & Programlama bölümü  üzerine eğitim aldım.
+                Selçuk Üniversite'nde Bilgisayar Programcılı bölümünü bitirdikten  sonra DGS İle Yönetim
+                Bilişim Sistemleri'nden mezun oldum.
+            </p>
         </div>
         <div class="right">
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, aspernatur.</p>
+            <p class="text">Programlama alanlarında ilerlemek ilk hedeflerimden biriydi.Bu hedefi gerçekleştirmek
+                için M.E.B. onaylı Microsoft Yazılım Sertifikası alarak bilgilerimi pekiştirdiğimi hem de hedeflerime iyice yaklaştığımı düşünüyorum.
+            </p>
         </div>
     </div>
-
     <button class="btn btn-large btn-outline">
-        <i class="fa-solid fa-download"></i>
-       İNDİR
+       <a href="dosya/CemalAydın_CV.pdf" target="_blank">
+       <i class="fa-solid fa-download"></i>
+      CV'mi İndir</a>
     </button>
    </section>
 
@@ -171,8 +177,7 @@
             <textarea  id="mesaj"  rows="5" placeholder="Mesaj"></textarea>
         </div>
         <div >
-            <button class="btn btn-primary">
-               Kaydet
+         <button class="btn btn-primary">Kaydet
             </button>
         </div>
     </form>
@@ -181,14 +186,14 @@
     <div class="container clearfix">
         <div class="col">
             <h4 class="text-uppercase">Konum</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aspernatur non molestiae quam ipsa sequi neque?</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.0513259804643!2d29.2761359!3d40.892689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cadb7523b3604d%3A0x58d2b842ae837ef3!2zR8O8bGzDvCBCYcSfbGFyLCBVem1hbiBTb2thxJ_EsSBObzoxLCAzNDkwNiBQZW5kaWsvxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1678959868077!5m2!1str!2str" width="320" height="210" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p>Güllübağlar Mh. Uzman Sk. No:1</p>
+          <span>Pendik / İSTANBUL</span>
         </div>
         <div class="col" >
-            <h4 class="text-uppercase">Webde Arama</h4>
+            <h4 class="text-uppercase">Web 'de Arama</h4>
             <ul>
-                <li><button class="btn btn-outline btn-social">
-                    <i class="fab fa-fw fa-facebook-f"></i>
-                </button></li>
+                <li><button class="btn btn-outline btn-social"><i class="fab fa-fw fa-facebook-f"></i>              </button></li>
                 <li><button class="btn btn-outline btn-social">
                     <i class="fab fa-fw fa-twitter"></i>
                 </button></li>
@@ -204,7 +209,7 @@
 
         <div class="col">
             <h4 class="text-uppercase">Freelancer Hakkında</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem totam reprehenderit commodi praesentium repellat.</p></div>
+        <p>En çok ihtiyaç duyulan freelancer çalışanların başında yazılımcılar gelir. Pek çok farklı yazılım dilinin bulunması da alanında uzmanlaşan freelancer yazılımcıların daha kolay iş bulmasını sağlar. Freelancer yazılım alanında iş bulmak için Php, Java, Phyton, Go gibi yazılım dillerinden en az bir tanesini bilmeniz gereklidir. </p></div>
     </div>
 </footer>
 <div class="copyright">
@@ -217,13 +222,7 @@
 </div>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-    <script>
-        $('.nav-icon').click(function(){
-            $('#nav-links').toggleClass("responsive");
-                return false;
-        });
-    </script>
+     <script src="javascript.js"></script>
 
 </body>
 </html>
