@@ -78,7 +78,7 @@ ul{
 .img-fluid{
     max-width: 20%;
     height: auto;
-    border-radius: 45%;
+    border-radius: 5%;
 }
 .clearfix::after{
     content: "";
@@ -207,7 +207,7 @@ nav{
  }
 
  #nav-links .nav-link:hover{
-    color: #18bc9c;
+    color: #267EA0;
     
 
    }
@@ -263,7 +263,7 @@ nav{
    /*header*/
 
 header{
-    background-color: #18bc9c;
+    background-color: #267ea0;
     padding-top: calc(112px + 10rem);padding-bottom: 112px;
     text-align: center;
 
@@ -303,7 +303,7 @@ header{
 
    .star-light::after{
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #267EA0;
    }
    .star-dark::after{
     color: #2c3e50;
@@ -357,7 +357,7 @@ header{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #18bc9c;
+    background-color: #267EA0;
     opacity: 0;
     transition: opacity .5s;
    }
@@ -379,7 +379,7 @@ header{
 
    #about
    {
-    background-color: #18bc9c;
+    background-color: #267ea0;
     color: #fff;
   
    }
@@ -428,9 +428,10 @@ header{
         
        }
    }
-   #contact{
+ /*  #contact{
     
    }
+*/
 
    #contact h2{
     font-size: 4.8rem;
@@ -463,15 +464,15 @@ header{
     }
 
     .btn-primary{
-        background-color: #18bc9c;
-        border-color: #18bc9c;
+        background-color: #267ea0;
+        border-color: #267ea0;
         color: #fff;
         padding: 1.2rem 1rem;
     }
 
     .btn-primary:hover{
-        background-color: #128f76;
-        border-color: #128f76;
+        background-color: #2185ad;
+        border-color: #2185ad;
         
     }
 
