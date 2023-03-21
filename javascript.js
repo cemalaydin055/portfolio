@@ -83,3 +83,5 @@ var Text = function(el, toRotate, period) {
       }
     }
   };
+
+ 
